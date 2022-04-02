@@ -1,4 +1,148 @@
 /* main background color #E5E5E5 */
 /* additional  background color #2F303A (dark) #FFFFFF (white, header) */
-/* fonts color dominant  #757575 (grey) #212121 (black)
-            additional:  #FFFFFF (white)   #2196F3 blue*/
+/* fonts color dominant  #757575 (grey) #212121 black
+            additional:  #FFFFFF (white)   #2196F3 blue */
+
+body {
+	font-family: Roboto, sans-serif;
+	background-color: #e5e5e5;
+	color: #757575;
+}
+ul {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+/* site nav */
+.page-header {
+	background-color: #ffffff;
+}
+.nav-list a {
+	color: #212121;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+}
+.nav-list :hover,
+.nav-list :focus {
+	color: #2196f3;
+}
+.contacts a {
+	color: #757575;
+}
+.contacts :hover,
+.contacts :focus {
+	color: #2196f3;
+}
+.logo {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: #2f303a;
+}
+.logo-web {
+	font-family: "Oleo Script";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.19;
+	color: #2196f3;
+}
+/* hero */
+.hero {
+	background-color: #2f303a;
+}
+.hero-header {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.hero-btn {
+	background-color: #2196f3;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	cursor: pointer;
+}
+.hero-btn :hover,
+.hero-btn :focus {
+	color: #2196f3;
+}
+/*  section 1 benefits/we-do*/
+.benefits-list {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+}
+.benefits-header {
+	text-transform: uppercase;
+	color: #212121;
+}
+.we-do {
+	font-size: 36px;
+	color: #212121;
+}
+/*  section 2 team */
+.team {
+	background-color: #f5f4fa;
+}
+.team-header {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #212121;
+}
+.team-person {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+	color: #212121;
+}
+.team-position {
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+}
+/*  footer */
+.page-footer {
+	background-color: #2f303a;
+}
+.page-footer .logo {
+	color: #ffffff;
+}
+.adress {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: #ffffff;
+}
+.footer-contact a {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.6);
+}
