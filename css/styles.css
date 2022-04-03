@@ -2,10 +2,14 @@
 /* additional  background color #2F303A (dark) #FFFFFF (white, header) */
 /* fonts color dominant  #757575 (grey) #212121 black
             additional:  #FFFFFF (white)   #2196F3 blue */
-
+:root {
+	--accent-hover: #2196f3;
+	--main-bkg-cl: #e5e5e5;
+	--font-cl-com: #212121;
+}
 body {
 	font-family: Roboto, sans-serif;
-	background-color: #e5e5e5;
+	background-color: var(--main-bkg-cl);
 	color: #757575;
 }
 ul {
@@ -31,7 +35,7 @@ ul {
 	background-color: #ffffff;
 }
 .nav-list a {
-	color: #212121;
+	color: var(--font-cl-com);
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -39,14 +43,14 @@ ul {
 }
 .nav-list :hover,
 .nav-list :focus {
-	color: #2196f3;
+	color: var(--accent-hover);
 }
 .contacts a {
 	color: #757575;
 }
 .contacts :hover,
 .contacts :focus {
-	color: #2196f3;
+	color: var(--accent-hover);
 }
 .logo {
 	/* font-family: "Oleo Script"; */
@@ -62,7 +66,7 @@ ul {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: #2196f3;
+	color: var(--accent-hover);
 }
 /* hero */
 .hero {
@@ -80,7 +84,7 @@ ul {
 	color: #ffffff;
 }
 .hero-btn {
-	background-color: #2196f3;
+	background-color: var(--accent-hover);
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 16px;
@@ -89,7 +93,7 @@ ul {
 }
 .hero-btn :hover,
 .hero-btn :focus {
-	color: #2196f3;
+	color: var(--accent-hover);
 }
 /*  section 1 benefits/we-do*/
 .benefits-list {
@@ -99,11 +103,11 @@ ul {
 }
 .benefits-header {
 	text-transform: uppercase;
-	color: #212121;
+	color: var(--font-cl-com);
 }
 .we-do {
 	font-size: 36px;
-	color: #212121;
+	color: var(--font-cl-com);
 }
 /*  section 2 team */
 .team {
@@ -116,14 +120,14 @@ ul {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
-	color: #212121;
+	color: var(--font-cl-com);
 }
 .team-person {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.18;
 	text-align: center;
-	color: #212121;
+	color: var(--font-cl-com);
 }
 .team-position {
 	font-size: 16px;
@@ -156,7 +160,7 @@ button {
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
-	color: #212121;
+	color: var(--font-cl-com);
 	background-color: #f5f4fa;
 	border-radius: 4px;
 	font-weight: 500;
@@ -165,7 +169,7 @@ button {
 
 .filter-btn :hover,
 .filter-btn :focus {
-	background-color: #2196f3;
+	background-color: var(--accent-hover);
 	color: #ffffff;
 }
 .project-name {
